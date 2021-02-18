@@ -7,3 +7,6 @@
 [submodule "pack/tpope/start/commentary"]
 	path = pack/tpope/start/commentary
 	url = https://tpope.io/vim/commentary.git
+[submodule "pack/vista/start/vista.vim"]
+	path = pack/vista/start/vista.vim
+	url = https://github.com/liuchengxu/vista.vim.git
