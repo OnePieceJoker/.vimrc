@@ -10,3 +10,6 @@
 [submodule "pack/vista/start/vista.vim"]
 	path = pack/vista/start/vista.vim
 	url = https://github.com/liuchengxu/vista.vim.git
+[submodule "pack/easymotion/start/easymotion"]
+	path = pack/easymotion/start/easymotion
+	url = https://github.com/easymotion/vim-easymotion

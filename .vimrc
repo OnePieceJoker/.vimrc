@@ -12,6 +12,9 @@ set softtabstop=-1
 syntax enable
 filetype plugin on
 
+" colorscheme
+packadd! dracula
+colorscheme dracula
 set path+=**
 
 set wildmenu
@@ -47,7 +50,8 @@ autocmd VimEnter * NERDTree | if argc() > 0 || exists("s:std_id") | wincmd p | e
 " Exit Vim if NERDTree is the only window left.
 autocmd BufEnter * if tabpagenr('$') == 1 && winnr('$') == 1 && exists('b:NERDTree') && b:NERDTree.isTabTree() | quit | endif
 
-let g:airline_theme='badwolf'
+" airline_theme
+let g:airline_theme='angr'
 
 " vistal
 nnoremap <leader>t :Vista!!<CR>
