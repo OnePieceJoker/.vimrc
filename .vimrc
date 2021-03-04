@@ -31,7 +31,7 @@ set wildmenu
 " call plug#end()
 
 nnoremap <leader>fd :e ~/.vim/.vimrc<CR>
-nnoremap <leader>f :FZF<CR>
+nnoremap <leader>ff :FZF<CR>
 
 nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
@@ -56,3 +56,16 @@ let g:airline_theme='angr'
 " vistal
 nnoremap <leader>t :Vista!!<CR>
 let g:vista_default_executive = 'ctags'
+
+" easymotion
+nmap s <Plug>(easymotion-overwin-f2)
+map <leader>sf <Plug>(easymotion-bd-f)
+nmap <leader>sf <Plug>(easymotion-overwin-f)
+map <leader>w <Plug>(easymotion-bd-w)
+nmap <leader>w <Plug>(easymotion-overwin-w)
+map <leader>L <Plug>(easymotion-bd-jk)
+nmap <leader>L <Plug>(easymotion-overwin-line)
+map / <Plug>(easymotion-sn)
+omap / <Plug>(easymotion-tn)
+map n <Plug>(easymotion-next)
+map N <Plug>(easymotion-prev)
